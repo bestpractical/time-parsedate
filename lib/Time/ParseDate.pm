@@ -1,6 +1,6 @@
 package Time::ParseDate;
 
-require 5.000;
+require 5.008001;
 
 use Carp;
 use Time::Timezone;
