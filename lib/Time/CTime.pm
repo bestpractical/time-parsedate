@@ -16,7 +16,7 @@ use strict;
 use vars qw(@DoW @DayOfWeek @MoY @MonthOfYear %strftime_conversion $VERSION);
 use vars qw($template $sec $min $hour $mday $mon $year $wday $yday $isdst);
 
-$VERSION = 2011.0505;
+$VERSION = 2026.0219;
 
 CONFIG: {
     @DoW = 	   qw(Sun Mon Tue Wed Thu Fri Sat);

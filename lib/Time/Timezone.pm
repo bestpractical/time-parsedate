@@ -14,7 +14,7 @@ use strict;
 
 use vars qw($VERSION);
 
-$VERSION = 2015.0925;
+$VERSION = 2026.0219;
 
 sub tz2zone
 {

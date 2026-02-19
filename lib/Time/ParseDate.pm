@@ -16,7 +16,7 @@ use strict;
 # constants
 use vars qw(%mtable %umult %wdays $VERSION);
 
-$VERSION = 2015.1030;
+$VERSION = 2026.0219;
 
 # globals
 use vars qw($debug); 

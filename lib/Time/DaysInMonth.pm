@@ -12,7 +12,7 @@ use strict;
 
 use vars qw($VERSION %mltable);
 
-$VERSION = 99.1117;
+$VERSION = 2026.0219;
 
 CONFIG:	{
 	%mltable = qw(
