@@ -1252,11 +1252,30 @@ C<undef> and an error string.
 	($seconds, $remaining) = parsedate("today is the day");
 	($seconds, $error) = parsedate("today is", WHOLE=>1);
 
-=head1 LICENSE
+=head1 AUTHOR
 
-Copyright (C) 1996-2010 David Muir Sharnoff.  
-Copyright (C) 2011 Google, Inc.  
-License hereby
-granted for anyone to use, modify or redistribute this module at
-their own risk.  Please feed useful changes back to cpan@dave.sharnoff.org.
+Best Practical Solutions, LLC E<lt>modules@bestpractical.comE<gt>
+
+=head1 ORIGINAL AUTHOR
+
+David Muir Sharnoff
+
+=head1 BUGS
+
+All bugs should be reported via email to
+
+    L<bug-Time-ParseDate@rt.cpan.org|mailto:bug-Time-ParseDate@rt.cpan.org>
+
+or via the web at
+
+    L<rt.cpan.org|http://rt.cpan.org/Public/Dist/Display.html?Name=Time-ParseDate>.
+
+=head1 LICENSE AND COPYRIGHT
+
+Copyright (C) 1996-2010 David Muir Sharnoff.
+Copyright (C) 2011 Google, Inc.
+Copyright (C) 2026 Best Practical Solutions, LLC.
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
 
