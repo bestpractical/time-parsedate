@@ -9,7 +9,7 @@ $Time::ParseDate::debug = $debug;
 BEGIN {
 	$okat = 12;
 	$ENV{'LANG'} = 'C';
-	$ENV{'TZ'} = 'PST8PDT'; 
+	$ENV{'TZ'} = 'America/Los_Angeles';
 
 	%k = (
 		'%' =>	'%',
@@ -47,7 +47,7 @@ BEGIN {
 		'y' =>  "94",
 		'Y' =>  "1994",
 		'X' =>	"21:05:57",
-		'Z' =>	"PST"
+		'Z' =>	"America/Los_Angeles"
 		);
 
 	$sdt_start_line = __LINE__+2;
@@ -382,7 +382,7 @@ $etime = 785307957.5 - $epoch;
 
 eval " 1/0; ";  # tests a bug in ctime!
 $x = ctime($etime);
-print $x eq "Sat Nov 19 21:05:57 PST 1994\n" ? "ok 2\n" : "not ok 2\n";
+print $x eq "Sat Nov 19 21:05:57 America/Los_Angeles 1994\n" ? "ok 2\n" : "not ok 2\n";
 
 print julian_day(1994,11,19) == 2449676 ? "ok 3\n" : "not ok 3\n";
 
