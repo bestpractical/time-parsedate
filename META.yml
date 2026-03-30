@@ -24,4 +24,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: https://github.com/bestpractical/time-parsedate
-version: 2026.0219
+version: 2026.0330

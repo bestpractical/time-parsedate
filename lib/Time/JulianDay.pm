@@ -19,7 +19,7 @@ use integer;
 # constants
 use vars qw($brit_jd $jd_epoch $jd_epoch_remainder $VERSION);
 
-$VERSION = 2026.0219;
+$VERSION = 2026.0330;
 
 # calculate the julian day, given $year, $month and $day
 sub julian_day

@@ -1,5 +1,8 @@
 Revision history for Perl module Time::ParseDate
 
+2026.0330 2026-03-30
+ - Use modern geographical timezone format for tests
+
 2026.0219 2026-02-19
  - Add support for trailing Z/z as UTC in ISO 8601 timestamps.
    From Kai Storbeck. https://github.com/muir/Time-modules/pull/10
